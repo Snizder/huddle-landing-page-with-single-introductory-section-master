@@ -11,11 +11,11 @@ function App() {
     <div className="min-h-screen w-full bg-[url('../images/bg-mobile.svg')] lg:bg-[url('../images/bg-desktop.svg')] 
     bg-no-repeat bg-left-top bg-contain custom-bg  px-8 py-6  ">
 
-      <header className="px-8 lg:px-12 pt-8 mb-11 ">
+      <header className="lg:px-12 pt-4 mb-12 ">
         <img className="w-[135px] sm:w-[160px] lg:w-[220px]" src={logo} alt="Logo" />
       </header>
         
-  <div className="w-full max-w-screen-2xl mx-auto"> 
+  <div className="w-full max-w-screen-[1440px] mx-auto"> 
   <div className="flex flex-col lg:flex-row gap-6 text-white lg:gap-10
                   items-center lg:items-start
                   text-center lg:text-left ">
@@ -30,13 +30,13 @@ function App() {
     sm:max-w-[420px]
     md:max-w-[560px]
     lg:flex-1
-    lg:max-w-[780px]
+    lg:max-w-[800px]
     lg:m-12
       "
     />
 
     {/* text */}
-    <div className="space-y-6 lg:max-w-[520px] mt-26">
+    <div className="space-y-6 lg:max-w-[520px] mt-12 lg:mt-26">
       <p className="text-2xl lg:text-4xl poppins-semibold">
         Build The Community Your Fans Will Love
       </p>
@@ -58,7 +58,7 @@ function App() {
 </div>
 
      {/* Footer */}
-      <footer className="flex justify-center gap-4 mt-18 lg:justify-end lg:m-0 lg:mr-20">
+      <footer className="flex justify-center gap-4 mt-18 lg:justify-end lg:mt-15">
           <a href="#" 
               className="text-[16px] text-white social-icon border border-white rounded-full p-1 cursor-pointer 
               hover:text-[#E879F9]
