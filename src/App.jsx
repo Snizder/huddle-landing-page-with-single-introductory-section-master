@@ -9,9 +9,9 @@ import { FaInstagram } from "react-icons/fa";
 function App() {
   return (
     <div className="min-h-screen w-full bg-[url('../images/bg-mobile.svg')] lg:bg-[url('../images/bg-desktop.svg')] 
-    bg-no-repeat bg-left-top bg-contain custom-bg  px-8 py-6  ">
+    bg-no-repeat bg-left-top bg-contain custom-bg  px-8 py-6 lg:px-8">
 
-      <header className="lg:px-12 pt-4 mb-12 ">
+      <header className="lg:px-16 pt-4 mb-12 ">
         <img className="w-[135px] sm:w-[160px] lg:w-[220px]" src={logo} alt="Logo" />
       </header>
         
@@ -30,8 +30,9 @@ function App() {
     sm:max-w-[420px]
     md:max-w-[560px]
     lg:flex-1
-    lg:max-w-[800px]
-    lg:m-12
+    lg:max-w-[830px]
+    lg:ml-14
+    lg:mt-14
       "
     />
 
